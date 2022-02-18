@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="11063" started-at="2022-02-06T18:46:57 IST" finished-at="2022-02-06T18:47:08 IST">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="11063" started-at="2022-02-06T18:46:57 IST" finished-at="2022-02-06T18:47:08 IST">
+      <class name="Academy.E2EProject1.HomepageTest">
+        <test-method status="PASS" signature="intializedriver()[pri:0, instance:Academy.E2EProject1.HomepageTest@5136d012]" name="intializedriver" is-config="true" duration-ms="3017" started-at="2022-02-06T18:46:57 IST" finished-at="2022-02-06T18:47:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializedriver -->
+        <test-method status="PASS" signature="Navigation(java.lang.String,java.lang.String)[pri:0, instance:Academy.E2EProject1.HomepageTest@5136d012]" name="Navigation" duration-ms="5241" started-at="2022-02-06T18:47:00 IST" data-provider="getData" finished-at="2022-02-06T18:47:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricteduser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Navigation -->
+        <test-method status="PASS" signature="Navigation(java.lang.String,java.lang.String)[pri:0, instance:Academy.E2EProject1.HomepageTest@5136d012]" name="Navigation" duration-ms="2611" started-at="2022-02-06T18:47:05 IST" data-provider="getData" finished-at="2022-02-06T18:47:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricteduser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[456788]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Navigation -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:Academy.E2EProject1.HomepageTest@5136d012]" name="closebrowser" is-config="true" duration-ms="123" started-at="2022-02-06T18:47:08 IST" finished-at="2022-02-06T18:47:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- Academy.E2EProject1.HomepageTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
