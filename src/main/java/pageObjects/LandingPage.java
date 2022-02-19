@@ -29,8 +29,6 @@ public class LandingPage {
 		return driver.findElement(text);
 		
 	}
-
-
 	
 	
 	  public WebElement NavigationBar() {

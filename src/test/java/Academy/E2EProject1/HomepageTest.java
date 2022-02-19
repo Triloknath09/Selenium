@@ -30,6 +30,7 @@ public class HomepageTest extends Base {
 	          driver = initializeDriver();
 			   log.info("Driver intialized");
 			   log.info("Driver intialized1");
+			   log.info("Driver E@Eintialized1");
 		
 	  }
 	

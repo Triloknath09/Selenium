@@ -28,6 +28,7 @@ public class ValidationBar extends Base
 	  { 
 	     driver = initializeDriver();
 	     log.info("Driver intialized");
+	     log.info("Driver intialized2");
 			 
 			   		
 	  }
@@ -41,11 +42,11 @@ public class ValidationBar extends Base
 		          driver.get(url);  
 		          Thread.sleep(2000);
 				   LandingPage ps =new LandingPage(driver);
-				   Assert.assertTrue(ps.NavigationBar().isDisplayed());
-				  
+				   Assert.assertTrue(ps.NavigationBar().isDisplayed());				  
 
  			 }
 
+	
 
 	@AfterTest
 	 public void close() throws IOException
